@@ -7,7 +7,7 @@ gem 'haml', '~> 3.1.4'
 
 # Sass & Compass
 gem 'sass', '~> 3.1.12'
-gem 'compass', '~> 0.11.6'
+gem 'compass', '~> 0.12.2'
 
 # Sass libraries
-gem 'grid-coordinates', '~> 1.1.4'
+gem 'bootstrap-sass', '~> 2.0.3'
