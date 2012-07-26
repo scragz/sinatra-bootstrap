@@ -14,9 +14,5 @@ set :haml, {:format => :html5} # default Haml format is :xhtml
 
 # Application routes
 get '/' do
-  haml :index, :layout => :'layouts/application'
-end
-
-get '/about' do
-  haml :about, :layout => :'layouts/page'
+  haml :index, layout: :layout
 end

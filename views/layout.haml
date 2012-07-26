@@ -26,16 +26,16 @@
 
   #container
     %header
-      = partial :'partials/header'
+      = partial :'partials/_header'
 
-    #main(role="main")
+    #main.container(role="main")
       = yield
 
     %footer
-      = partial :'partials/footer'
+      = partial :'partials/_footer'
 
   -# JavaScript at the bottom for fast page loading
-  = partial :'partials/javascripts'
+  = partial :'partials/_javascripts'
 
   -# Google analytics snippet
-  = partial :'partials/analytics'
+  = partial :'partials/_analytics'
